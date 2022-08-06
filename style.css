@@ -38,9 +38,17 @@ button {
     color: #F9FAF8;
 }
 
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
 .dark-background {
     background: #1F2937;
-    padding: 12px 42px;
+    padding: 100px 150px;
+    padding-top: 15px;
 }
 
 .text, .box {
