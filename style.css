@@ -3,6 +3,7 @@ body {
     margin: 0;
     min-height: 100vh;
 }
+
 .header { 
     font-size: 24px;
     color: #F9FAF8;
@@ -29,7 +30,6 @@ button {
     border-radius: 5px;
     padding: 6px 30px;
     font-size: 18px;
-
 }
 
 .title {
@@ -47,7 +47,7 @@ button {
 
 .dark-background {
     background: #1F2937;
-    padding: 100px 150px;
+    padding: 100px;
     padding-top: 15px;
 }
 
@@ -60,5 +60,29 @@ button {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 30px;
+}
+
+.portfolio {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    padding: 20px;
+    margin: auto;
+    width: 100px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    border: 3px solid #3882F6;
+
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
 }
 
