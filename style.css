@@ -85,3 +85,21 @@ button {
     flex-direction: column;
 }
 
+.grey {
+    background: #E5E7EB;
+    padding: 100px;
+    padding-top: 15px;
+    padding: 50px 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+}
+
+.by {
+    font-weight: bold;
+    text-align: end;
+}
